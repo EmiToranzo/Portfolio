@@ -1,3 +1,42 @@
+/*Fondo de página*/
 body {
     background-color: #f5d6f5;
+}
+/*Barra de navegacion*/
+.nav_header {
+    background-color: rgb(234, 164, 248);
+}
+
+.image {
+    display: inline-block;
+    vertical-align: middle;
+}
+.button {
+        display: inline-block;
+        vertical-align:middle;
+    float:inline-end;
+    margin-top: 40px;
+}
+/*Boton contacto*/
+.contacto {
+    border: 2px solid violet;
+    border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+    margin-top: 30px;
+} 
+
+/*FOOTER*/
+footer { 
+    border: 2px solid tomato; 
+}
+
+/*ESTILOS PAGINA CONTACTO*/
+
+.mensaje_contacto {
+    text-align: center;
+}
+
+.form {
+    float: inline-end;
 }
