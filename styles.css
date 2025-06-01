@@ -1,13 +1,22 @@
 /*Fondo de página*/
 body {
-    background-color: #f5d6f5;
+    background-color: #fdf2fd;
 }
+/*CONTENEDOR HEADER*/
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(55, 1, 70);
+}
+
 /*Barra de navegacion*/
 .nav_header {
-    background-color: rgb(234, 164, 248);
+    background-color: rgb(55, 1, 70);
     height: 100px;
     padding: 0 30px;
-   
+    list-style: none;
+    display: inline;
 }
 /*contenedor de logo*/
 .image {
@@ -15,8 +24,15 @@ body {
     vertical-align: middle;
     border-radius: 20px;
 }
+/*contenedor lista*/
+.nav_header ul {
+    list-style: none;
+}
+nav li {
+    display: inline;
+}
 /*Contenedor de boton contacto*/
-.button {
+/*.button {
         float: right;
         vertical-align:middle;
         margin-top: 30px;
@@ -53,19 +69,19 @@ h3 {
     margin-top: 30px;
     text-align: center;
 }
-  
+
 .presentacion th,
 .presentacion td {
     border: 6px solid #e78af1;
     padding: 15px;
     font-size: 20px;
 }
-  
+
 .presentacion th {
     background-color: #eca3fe;
     font-size: 30px;
 }
-  
+
 .presentacion td {
     background-color: #f1c4fc;
 }
@@ -80,6 +96,7 @@ footer {
 /*BARRA NAVEGACION CON LOGOS*/
 .nav_footer {
     text-align: center;
+    background-color: rgb(55, 1, 70);
     
 }
 .nav_footer img {
