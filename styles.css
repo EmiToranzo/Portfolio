@@ -30,12 +30,38 @@ header{
     vertical-align: middle;
     border-radius: 20px;
 }
+/* Ocultar el botón hamburguesa en pantallas grandes */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+/* Responsive: menú oculto + botón visible en pantallas pequeñas */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;}
+}
+@media (max-width: 768px) {
+  .nav_header {
+    display: none;}
+  }
+ .nav_header.active {
+    display: flex;
+    flex-direction: column;
+  }
 /*contenedor lista*/
 .nav_header ul {
     list-style: none;
+    flex-direction: column;
+    padding: 10px 0;
 }
 nav li {
     display: inline;
+    text-align: center;
+    padding: 10px 0;
 }
 /*Contenedor de boton contacto*/
 /*.button {
