@@ -2,6 +2,12 @@
 body {
     background-color: #fdf2fd;
 }
+header{
+   
+    background-color: rgb(55, 1, 70);
+    position: sticky;
+    top: 0;
+}
 /*CONTENEDOR HEADER*/
 .header_container {
     display: flex;
@@ -47,6 +53,9 @@ nav li {
     height: 40px;
     font-size: 30px;
     font-family: cursive;
+}
+.contacto:hover{
+    background-color: #da7be4;
 }
 /*MAIN*/
 h2 {
